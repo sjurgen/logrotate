@@ -1,0 +1,10 @@
+/var/lib/mysq/data/slow.log { 
+	rotate 5
+	monthly
+	size 300M
+	nomail
+	dateext
+	dateformat -%Y%m%d
+	noolddir
+	endscript
+}
